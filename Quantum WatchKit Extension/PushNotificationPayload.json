@@ -1,0 +1,20 @@
+{
+    "aps": {
+        "alert": "This is a test notification with sample text",
+        "title": "Quantum notification",
+        "category": "myCategory"
+    },
+    
+    "WatchKit Simulator Actions": [
+        {
+            "title": "View stars",
+            "identifier": "firstButtonAction"
+        },
+       {
+       "title": "View planets",
+       "identifier": "secondButtonAction"
+       }
+    ],
+    
+    "customKey": "Use this file to define a testing payload for your notifications. The aps dictionary specifies the category, alert text and title. The WatchKit Simulator Actions array can provide info for one or more action buttons in addition to the standard Dismiss button. Any other top level keys are custom payload. If you have multiple such JSON files in your project, you'll be able to choose between them in when selecting to debug the notification interface of your Watch App."
+}
